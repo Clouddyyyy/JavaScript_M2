@@ -161,79 +161,91 @@ g.fill();
 //4 christmas houses
 
 //First house
-g.beginPath(); 
-g.rect(10, 250, 100, 70); 
-g.fillStyle = "lightblue";
-g.fill();
+function huis(x, y){
+    g.beginPath(); 
+    g.rect(x+10, y+250, 100, 70); 
+    g.fillStyle = "lightblue";
+    g.fill();
 
 
-g.beginPath(); 
-g.rect(30, 260, 20, 20); 
-g.fillStyle = "white";
-g.stroke();
-g.fill();
+    g.beginPath(); 
+    g.rect(x+30, y+260, 20, 20); 
+    g.fillStyle = "white";
+    g.stroke();
+    g.fill();
 
-g.beginPath(); 
-g.rect(70, 260, 20, 20); 
-g.fillStyle = "white";
-g.stroke();
-g.fill();
+    g.beginPath(); 
+    g.rect(x+70, y+260, 20, 20); 
+    g.fillStyle = "white";
+    g.stroke();
+    g.fill();
 
 
-g.beginPath(); 
-g.moveTo(10, 250); 
-g.lineTo(60, 200);
-g.lineTo(110, 250); 
-g.closePath(); 
-g.fillStyle = "blue"; 
-g.fill();
+    g.beginPath(); 
+    g.moveTo(x+10, y+250); 
+    g.lineTo(x+60, y+200);
+    g.lineTo(x+110, y+250); 
+    g.closePath(); 
+    g.fillStyle = "blue"; 
+    g.fill();
+}
+
+huis(0, 0);
+huis(20, 150);
 
 //Second house
+function house2(x, y){
 g.beginPath(); 
-g.rect(110, 530, 80, 70); 
+g.rect(x+110, y+530, 80, 70); 
 g.fillStyle = "cyan";
 g.fill();
 
 g.beginPath(); 
-g.rect(140, 545, 20, 20); 
+g.rect(x+140, y+545, 20, 20); 
 g.fillStyle = "white";
 g.stroke();
 g.fill();
 
 g.beginPath(); 
-g.moveTo(150, 470); 
-g.lineTo(190, 530);
-g.lineTo(110, 530); 
+g.moveTo(x+150, y+470); 
+g.lineTo(x+190, y+530);
+g.lineTo(x+110, y+530); 
 g.closePath(); 
 g.fillStyle = "Darkcyan"; 
 g.fill();
+}
+house2(0, 0);
+house2(400,10);
 
 //Third house
+function house3(x, y){
 g.beginPath(); 
-g.rect(600, 530, 100, 70); 
+g.rect(x+600, y+530, 100, 70); 
 g.fillStyle = "darkslateblue";
 g.fill();
 
 g.beginPath(); 
-g.rect(620, 560, 20, 20); 
+g.rect(x+620, y+560, 20, 20); 
 g.fillStyle = "white";
 g.stroke();
 g.fill();
 
 g.beginPath(); 
-g.rect(660, 560, 20, 20); 
+g.rect(x+660, y+560, 20, 20); 
 g.fillStyle = "white";
 g.stroke();
 g.fill();
 
 g.beginPath(); 
-g.moveTo(600, 530); 
-g.lineTo(650, 480);
-g.lineTo(700, 530); 
+g.moveTo(x+600, y+530); 
+g.lineTo(x+650, y+480);
+g.lineTo(x+700, y+530); 
 g.closePath(); 
 g.fillStyle = "darkmagenta"; 
 g.fill();
-
+}
+house3(0, 0);
+house3(100, -300);
 //Fourth house
 g.beginPath(); 
 g.rect(480, 230, 100, 70); 
