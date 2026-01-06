@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 const imgElement =  document.getElementById("image");
 
 const saturationButton  = document.getElementById("saturation");
@@ -25,12 +25,4 @@ function somethingButtonClicked(){
 somethingButton.addEventListener("click", somethingButtonClicked);
 
 
-=======
-const imgElement = document.getElementById("image");
 
-const saturationButton = document.getElementById("saturation");
-function saturationButtonClicked(){
-    imgElement.classList.toggle("saturation");
-}
-saturationButton.addEventListener("click", saturationButtonClicked);
->>>>>>> e5493fc2948118d0dabf7ed002e729e8417773aa
