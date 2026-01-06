@@ -1,0 +1,20 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.saturation{
+<<<<<<< HEAD
+    filter:saturate(900%);
+}
+
+.blur{
+    filter:blur(900px);
+}
+
+.something{
+   transform:rotate(10deg);
+=======
+    filter:saturate(2500%);
+>>>>>>> e5493fc2948118d0dabf7ed002e729e8417773aa
+}
