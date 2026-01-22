@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array</title>
+</head>
+
+<body>
+    <script>
+        let Array = [6.4, 3.2, 5.3, 7.9, 1.6, 6.1, 4.7, 8.0, 2.5];
+        Array.pop(8.0, 2.5);
+
+        let totaal = Array.pop() + Array.pop();
+        console.log(totaal);
+        Array.push("2.5");
+        console.log(Array);
+
+
+        for (let i = 0; i < Array.length; i++) {
+            console.log('Waarde' + i + ':' + Array[i]);
+        }
+
+
+    </script>
+</body>
+
+</html>
